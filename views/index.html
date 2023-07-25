@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CyberLearn Dressing Room</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="text-center">
+              <img src="./../assets/images/cybersoft.png" alt="Card image" />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+                - Virtual Dressing Room
+              </h4>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Áo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Quần</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-giaydep-tab" data-toggle="pill" data-target="#pills-giaydep" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Giày dép</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-tuixach-tab" data-toggle="pill" data-target="#pills-tuixach" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Túi xách</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-daychuyen-tab" data-toggle="pill" data-target="#pills-daychuyen" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Dây chuyền</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-kieutoc-tab" data-toggle="pill" data-target="#pills-kieutoc" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Kiểu tóc</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-nen-tab" data-toggle="pill" data-target="#pills-nen" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Nền</button>
+            </li>
+          </ul>
+
+          <div class="well">
+            <!-- Tab panes -->
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/topcloth1_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Top cloth 1</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseTop('1')}" id="btnTop1">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/topcloth2_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Top cloth 2</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseTop('2')}" id="btnTop2">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/topcloth3_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Top cloth 3</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseTop('3')}" id="btnTop3">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/topcloth4_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Top cloth 4</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseTop('4')}" id="btnTop4">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/topcloth5_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Top cloth 5</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseTop('5')}" id="btnTop5">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/topcloth6_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Top cloth 6</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseTop('6')}" id="btnTop6">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                 
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/botcloth1_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Bot cloth 1</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBot('1')}" id="btnBot1">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/botcloth2_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Bot cloth 2</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBot('2')}" id="btnBot2">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/botcloth3_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Bot cloth 3</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBot('3')}" id="btnBot3">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/botcloth4_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Bot cloth 4</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBot('4')}" id="btnBot4">Mặc Thử</button>
+                        </div>
+                    </div>
+            
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/clothes/botcloth5_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Bot cloth 5</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBot('5')}" id="btnBot5">Mặc Thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                 
+                 
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-giaydep" role="tabpanel" aria-labelledby="pills-giaydep-tab">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/shoes/shoes1_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Shoes 1</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseShoes('1')}" id="btnShoe1">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/shoes/shoes2_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Shoes 2</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseShoes('2')}" id="btnShoe2">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/shoes/shoes3_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Shoes 3</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseShoes('3')}" id="btnShoe3">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/shoes/shoes4_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Shoes 4</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseShoes('4')}" id="btnShoe4">Mặc thử</button>
+                        </div>
+                    </div>
+            
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/shoes/shoes5_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Shoes 5</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseShoes('5')}" id="btnShoe5">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                 
+                 
+
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-tuixach" role="tabpanel" aria-labelledby="pills-tuixach-tab">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/handbags/handbag1_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Handbag 1</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBag('1')}" id="btnHand1">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/handbags/handbag2_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Handbag 2</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBag('2')}" id="btnHand2">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/handbags/handbag3_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Handbag 3</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBag('3')}" id="btnHand3">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-daychuyen" role="tabpanel" aria-labelledby="pills-daychuyen-tab">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/necklaces/necklace1_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Necklace 1</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseNeck('1')}" id="btnNec1">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/necklaces/necklace2_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Necklace 2</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseNeck('2')}" id="btnNec2">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/necklaces/necklace3_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Necklace 3</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseNeck('3')}" id="btnNec3">Mặc thử</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-kieutoc" role="tabpanel" aria-labelledby="pills-kieutoc-tab">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/hairstyle/hairstyle1_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Hair style 1</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseHair('1')}" id="hair1">Chọn kiểu tóc</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/hairstyle/hairstyle2_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Hair style 2</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseHair('2')}" id="hair2">Chọn kiểu tóc</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/hairstyle/hairstyle3_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Hair style 3</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseHair('3')}" id="hair3">Chọn kiểu tóc</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-nen" role="tabpanel" aria-labelledby="pills-nen-tab">                                                                                                                                                                    
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/background/background1_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Background 1</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBG('1')}" id="btnBG1">Chọn background</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/background/background2_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Background 2</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBG('2')}" id="btnBG2">Chọn background</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/background/background3_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Background 3</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBG('3')}" id="btnBG3">Chọn background</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/background/background4_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Background 4</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBG('4')}" id="btnBG4">Chọn background</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/background/background5_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Background 5</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBG('5')}" id="btnBG5">Chọn background</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/background/background6_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Background 6</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBG('6')}" id="btnBG6">Chọn background</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                  <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card projects__item animate__animated animate__zoomIn">
+                        <img src="../assets/images/background/background7_show.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Background 7</h3>
+                            <button class="btn btn-outline-success" onclick="{handelChooseBG('7')}" id="btnBG7">Chọn background</button>
+                        </div>
+                    </div>
+                  
+                </div>
+                
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contain">
+            <div id="body" class="body"></div>
+            <div id="model" class="model"></div>
+            <div id="hairstyle" class="hairstyle">
+              <img id="imgOutPut" src="" alt="">
+            </div>
+            <div id="necklace" class="necklace">
+              <img id="imgOutPutNec" src="" alt="">
+            </div>
+            <div id="top" class="bikinitop">
+              <img id="imgOutPutTop" src="" alt="" width="250px" height="500px" >
+            </div>
+            <div id="bottom" class="bikinibottom">
+              <img id="imgOutPutBot" src="" alt="" width="250px" height="500px" >
+            </div>
+            <div id="handbag" class="handbag">
+              <img id="imgOutPutHand" src="" alt="">
+            </div>
+            <div id="shoes" class="feet">
+              <img id="imgOutPutShoes" src="" alt="" >
+            </div>
+            <div id="bg" class="background">
+              <img id="imgOutPutBG" src="" alt="" width="900px" height="1500px" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="./../models/ListChosen.js"></script>
+    <script src="./../models/ChoseItem.js"></script>
+    <script src="./../utils/callData.js"></script> -->
+    <script src="./../controllers/main.js"></script>
+  </body>
+</html>
